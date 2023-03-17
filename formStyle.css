@@ -1,0 +1,27 @@
+@font-face {
+    font-family: merriweather;
+    src: url(fonts/Merriweather-Regular.ttf);
+}
+
+body{
+    background-image: linear-gradient(to right, lightskyblue, lavenderblush);
+    font-family: merriweather, cursive;
+}
+
+main{
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: hotpink;
+}
+
+.sign-up, .forgot-pass{
+    font-size: 14px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: rebeccapurple !important;
+    border: 1px solid rebeccapurple !important;
+}
