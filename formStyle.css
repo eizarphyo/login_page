@@ -3,9 +3,18 @@
     src: url(fonts/Merriweather-Regular.ttf);
 }
 
-body{
-    background-image: linear-gradient(to right, lightskyblue, lavenderblush);
-    font-family: merriweather, cursive;
+@media screen and (max-width: 768px) {
+    body{
+        background-image: linear-gradient(to bottom, lightskyblue, lavenderblush);
+        font-family: merriweather, cursive;
+    }  
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        background-image: linear-gradient(to right, lightskyblue, lavenderblush);
+        font-family: merriweather, cursive;
+    }  
 }
 
 main{
